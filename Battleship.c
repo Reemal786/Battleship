@@ -27,6 +27,7 @@ while(++counter<=9)
   
 //end of while loop
 
+//not sure why there is a "0" at the end of line 31 when running note: fix this at somepoint lmao 
 printf("\n--------------------------------------");
 
   
