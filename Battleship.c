@@ -15,13 +15,29 @@ printf("=====> Current Board Status <===== \n");
  
 //while loop
 {  
-int counter=0; 
+int counter= -1; 
 while(++counter<=9)
 {
-    printf("%d",counter); 
+    printf("%d\n",counter); 
 }
 }
 //end of while loop
-  return 0; 
-}
 
+//Start of rectangle grid
+{
+  int n;  
+    printf("Enter the number of rows ");  
+    scanf("%d",&n);  
+    for(int i=0;i<n;i++)  
+    {  
+        for(int j=0;j<n;j++)  
+        {  
+            printf("*");  
+        }  
+        printf("\n");  
+    }  
+}
+//End of rectangle Grid
+
+return 0;
+}
