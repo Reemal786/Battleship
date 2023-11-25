@@ -21,7 +21,7 @@ printf("=====> Current Board Status <===== \n");
 int counter= -1; 
 while(++counter<=9)
 {
-    printf("%d",counter); 
+    printf("%d  ",counter); 
 }
 }
   
