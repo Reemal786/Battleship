@@ -1,6 +1,12 @@
-/* Project Partners: Reemal Hoor, Kineret Ortega 
+/*
+
+Project Partners: Reemal Hoor, Kineret Ortega 
+
 EECE 210 Software Engineering 1
-Dr.Wafa Elmannai */
+
+Dr.Wafa Elmannai 
+
+*/
 
 
 #include <stdio.h>
