@@ -12,10 +12,16 @@ printf("Initializing board.... \n");
 printf("Game board has been initialized.... \n");
 printf("Placing boats onto the game board.... \n");
 printf("=====> Current Board Status <===== \n"); 
-  //can change line 16 to a loop instead with increments to make more advanced
-printf("0  1  2  3  4  5  6  7  8  9 \n");
-
-
+ 
+//while loop
+{  
+int counter=0; 
+while(++counter<=9)
+{
+    printf("%d",counter); 
+}
+}
+//end of while loop
   return 0; 
 }
 
