@@ -103,4 +103,93 @@ scanf ("%d", &Row);
   
 printf("COLUMN value (From 0 to 9): \n");
 scanf ("%d", &Column); 
+
+Printf(".......Hit!!!");
+
+//Repeat Grid 
+
+printf("=====> Current Board Status <===== \n"); 
+ 
+//while loop
+  
+{  
+int counter= -1; 
+while(++counter<=9)
+{
+    printf("%d  ",counter); 
+}
+}
+  
+//end of while loop
+
+//not sure why there is a "0" at the end of line 31 when running note: fix this at somepoint lmao 
+printf("\n-------------------------------------- \n");
+
+  
+//while loop again
+  
+{  
+int counter= -1; 
+while(++counter<=9)
+{
+    printf("%d : . . . . . . . . . . . .  \n",counter); 
+}
+}
+  
+//end of while loop
+
+//end of repeat grid
+
+printf("For your guess, enter in the row and column positions of the game board. Please enter the row value first.");
+
+int Row; 
+int Column; 
+
+printf("ROW value (From 0 to 9): \n");
+scanf ("%d", &Row); 
+
+  
+printf("COLUMN value (From 0 to 9): \n");
+scanf ("%d", &Column); 
+
+Printf(".......Hit!!!");
+
+//Repeat Grid 
+
+printf("=====> Current Board Status <===== \n"); 
+ 
+//while loop
+  
+{  
+int counter= -1; 
+while(++counter<=9)
+{
+    printf("%d  ",counter); 
+}
+}
+  
+//end of while loop
+
+//not sure why there is a "0" at the end of line 31 when running note: fix this at somepoint lmao 
+printf("\n-------------------------------------- \n");
+
+  
+//while loop again
+  
+{  
+int counter= -1; 
+while(++counter<=9)
+{
+    printf("%d : . . . . . . . . . . . .  \n",counter); 
+}
+}
+  
+//end of while loop
+
+//end of repeat grid
+
+
+
+
+
 return 0;
