@@ -8,8 +8,32 @@ Dr.Wafa Elmannai
 
 */
 
-
 #include <stdio.h>
+#include <stdlib.h>
+
+// creating output file for placement of ships 
+#define FILE_Name "placeShips.txt"
+
+//Problem 1: write to file
+//Problem 1.5: print 2d array to terminal
+//Problem2: write array to file
+
+void main()
+{
+
+    FILE *output_1;
+    output_1 = fopen("placeShips.txt", "w");
+    // int test = 5;
+    // processing the file
+    int placements[12][2] = {{1, 1},{1, 2},{1, 3},{2,4},{2,5},{2,6},{1,7},{2,7},{3,7},{4,8},{5,8},{6,8}};
+    fprintf(output_1,"%d %d", placements);
+    // fprintf(output_1,"%d",test);
+
+    // closing file
+    fclose(output_1);
+}
+
+//creating the 10x10 grid 
 int main()
 {
   
