@@ -8,6 +8,9 @@ Dr.Wafa Elmannai
 
 */
 
+// comments: use for loop to repeat grid after user input hit or miss
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
