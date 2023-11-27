@@ -34,7 +34,7 @@ while(++counter<=9)
 //end of while loop
 
 //not sure why there is a "0" at the end of line 31 when running note: fix this at somepoint lmao 
-printf("\n--------------------------------------");
+printf("\n-------------------------------------- \n");
 
   
 //while loop again
@@ -43,28 +43,28 @@ printf("\n--------------------------------------");
 int counter= -1; 
 while(++counter<=9)
 {
-    printf("%d : \n",counter); 
+    printf("%d : . . . . . . . . . . . .  \n",counter); 
 }
 }
   
 //end of while loop
 
-  
+/*  
 //Start of rectangle grid (note: change line 35 to not ask user to enter num of rows)
   
-{
-  int n;  
-    printf("Enter the number of rows ");  
-    scanf("%d",&n);  
-    for(int i=0;i<n;i++)  
+
+  
+    for(int i=0;i<10;i++)  
     {  
-        for(int j=0;j<n;j++)  
+        for(int j=0;j<10;j++)  
         {  
             printf(".");  
         }  
         printf("\n");  
     }  
-}
+
+  */
+  
   
 //End of rectangle Grid
 
@@ -75,4 +75,3 @@ printf("ROW value (From 0 to 9): \n");
 printf("COLUMN value (From 0 to 9): \n");
 
 return 0;
-}
