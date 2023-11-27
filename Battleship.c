@@ -69,9 +69,14 @@ while(++counter<=9)
 //End of rectangle Grid
 
 printf(" For your guess, enter in the row and column positions of the game board.  Please enter the row value first. \n");
-  
+
+int Row; 
+int Column; 
+
 printf("ROW value (From 0 to 9): \n");
+scanf ("%d", &Row); 
+
   
 printf("COLUMN value (From 0 to 9): \n");
-
+scanf ("%d", &Column); 
 return 0;
