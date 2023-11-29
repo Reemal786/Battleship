@@ -194,4 +194,9 @@ while(++counter<=9)
 
 //end of repeat grid
 
-
+//ending Display 
+      
+printf("Congradulations!! You sunk all four boats. It took 12 shots to sink all the boats. Your percentage of hits is ");
+      
+return 0;
+  }
