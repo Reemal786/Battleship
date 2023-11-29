@@ -195,8 +195,3 @@ while(++counter<=9)
 //end of repeat grid
 
 
-
-
-
-return 0;
-}
