@@ -21,6 +21,7 @@ Dr.Wafa Elmannai
 //Problem 1.5: print 2d array to terminal
 //Problem2: write array to file
 
+/*
 void main()
 {
 
@@ -39,9 +40,11 @@ void main()
 //creating the 10x10 grid 
 int main()
 {
+  */
   
 //Print statments to start game
-  
+  int main()
+  {
 printf("Enter the name of the input file now: \n");
 printf("Initializing board.... \n");
 printf("Game board has been initialized.... \n");
@@ -107,7 +110,7 @@ scanf ("%d", &Row);
 printf("COLUMN value (From 0 to 9): \n");
 scanf ("%d", &Column); 
 
-Printf(".......Hit!!!");
+printf(".......Hit!!!");
 
 //Repeat Grid 
 
@@ -144,18 +147,18 @@ while(++counter<=9)
 //end of repeat grid
 
 printf("For your guess, enter in the row and column positions of the game board. Please enter the row value first.");
-
+/*
 int Row; 
 int Column; 
-
+*/
 printf("ROW value (From 0 to 9): \n");
-scanf ("%d", &Row); 
+//scanf ("%d", &Row); 
 
   
 printf("COLUMN value (From 0 to 9): \n");
-scanf ("%d", &Column); 
+//scanf ("%d", &Column); 
 
-Printf(".......Hit!!!");
+printf(".......Hit!!! \n");
 
 //Repeat Grid 
 
@@ -196,3 +199,4 @@ while(++counter<=9)
 
 
 return 0;
+}
