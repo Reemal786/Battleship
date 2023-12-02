@@ -206,7 +206,7 @@ printf("Congradulations!! You sunk all four boats. It took 12 shots to sink all 
 
    percentage = (float)scored / total_hits * 100.0;
 
-   printf("Percentage = %.2f%%", percentage);
+   printf("%.2f%%", percentage);
 
 //end of percentages
       
