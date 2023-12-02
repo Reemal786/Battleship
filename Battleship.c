@@ -197,6 +197,18 @@ while(++counter<=9)
 //ending Display 
       
 printf("Congradulations!! You sunk all four boats. It took 12 shots to sink all the boats. Your percentage of hits is ");
+
+//Percentages 
+
+        float percentage;
+   int total_marks = 1200;
+   int scored = 1122;
+
+   percentage = (float)scored / total_marks * 100.0;
+
+   printf("Percentage = %.2f%%", percentage);
+
+//end of percentages
       
 return 0;
   }
