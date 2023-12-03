@@ -212,3 +212,37 @@ printf("Congradulations!! You sunk all four boats. It took 12 shots to sink all 
       
 return 0;
   }
+
+
+/* 
+
+//HEADER FILE FOR GRID 
+
+
+#ifndef Game_Grid
+#define Game_Grid
+
+
+int counter= -1; 
+while(++counter<=9)
+{
+    printf("%d : . . . . . . . . . . . .  \n",counter);
+}
+// Function prototype, its declaration
+
+#endif /* Game_Grid*/
+
+
+//HIT AND MISS CODE 
+
+
+/*CODE FOR HIT AT  0;3 
+
+printf("0 : . . H . . . . . . . . \n");
+int Counter= 0; 
+while(++Counter<=9)
+{
+    printf("%d : . . . . . . . . . . .  \n",Counter);
+}
+*/
+
