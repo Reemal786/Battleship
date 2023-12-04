@@ -246,3 +246,28 @@ while(++Counter<=9)
 }
 */
 
+
+//Grid Code
+void InitialBoard()
+{
+    //creating 10*10 array grid 
+    //still need to include the numbers on the top and side 
+    char gameBoard[10][10];
+    for (size_t i = 0; i < 10; i++)
+    {
+        for (size_t j = 0; j < 10; j++)
+        {
+            gameBoard[i][j] = '.';
+        }
+    }
+
+    for (size_t i = 0; i < 10; i++)
+    {
+        for (size_t j = 0; j < 10; j++)
+        {
+            printf("%c ", gameBoard[i][j]);
+        }
+        printf("\n");
+    }
+}
+
